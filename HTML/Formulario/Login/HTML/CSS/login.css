@@ -1,0 +1,36 @@
+.formLogin{
+    position: absolute;
+	left: 40%;
+    top: 14%;
+    border-collapse: collapse;
+    background-color: rgb(158, 158, 158);
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-image:url(https://i.imgur.com/Ar7T5PI.jpg);
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 45px;
+    color: red;
+    font-style: italic;
+
+}
+
+.login{
+    padding-left: 4px;
+    padding-top: 15px;
+}
+
+.senha{
+    padding-top: 15px;
+}
+
+.botao{
+    padding-top: 10px;
+    padding-left: 4.1cm;
+}

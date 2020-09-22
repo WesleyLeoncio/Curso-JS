@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/video.css">
+    <script type="text/javascript" src="Script/funcVideo.js"></script>
+    <title>:: Videos ::</title>
+</head>
+
+<body>
+    <video id="meuVideo" width="800" height="450" controls autoplay controlsList="nodownload">
+        <source src="http://files.cod3r.com.br/curso-web/video.mp4" type="video/mp4">
+    </video>
+
+    <div wm-progresso="meuVideo" class="progresso">
+        <div></div>
+    </div>
+
+    <div class="botoes">
+        <button class="btEstilo" wm-play="meuVideo">Play</button>
+        <button class="btEstilo" wm-inicio="meuVideo">Inicio</button>
+        <button class="btEstilo" wm-avancar="meuVideo">Avançar</button>
+        <button class="btEstilo" wm-voltar="meuVideo">Voltar</button>
+        <button class="btEstilo" wm-fullscreen="meuVideo">Full Screen</button>
+    </div>
+
+
+    <script src="Script/funcVideo.js"></script>
+</body>
+
+</html>
+
+<!-- controls : coloca os controles basicos de controle de video
+     autoplay : inicia o video quando a pagina é aberta 
+     controlsList="nodownload" desativa a opção de download 
+     ()=> forma apreviada de escrever uma função
+-->

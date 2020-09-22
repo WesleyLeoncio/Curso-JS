@@ -1,1 +1,2 @@
-# Curso-JS
+# Exercicios_JS
+Curso de Java Script 

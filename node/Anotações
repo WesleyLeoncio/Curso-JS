@@ -1,0 +1,5 @@
+comando para baixar a pasta do node_modules com as configurações do package.json
+npm -i
+
+npm i --save dependecia = Comando usando no terminal do node para instalar dependencia e salvar
+no arquivo no package-json

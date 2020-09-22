@@ -1,7 +1,6 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "",
   "main": "src/service.js",
   "scripts": {
     "start": "nodemon",
@@ -13,5 +12,6 @@
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.2"
-  }
+  },
+  "description": ""
 }

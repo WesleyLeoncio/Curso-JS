@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selecionar Elementos #04</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="conteudo exercicio">
+    <div>
+        <p>Início</p>
+    </div>
+    <div>
+        <ul>
+            <li>Pedro</li>
+            <li>Ana</li>
+            <li>Bia</li>
+        </ul>
+    </div>
+    <div>
+        <p>Fim</p>
+    </div>
+    <script>
+        const lista = document.querySelector('div ul');
+        console.log(lista.parentNode);
+        console.log(lista.childNodes);
+
+        const primeiro = lista.firstChild; // pega o primeiro elemento 
+        console.log(primeiro);
+        console.log(primeiro.nextSibling); // pega o proximo elemento 
+
+        const ultimo = lista.lastChild; // pega o ultimo elemento
+        console.log(ultimo);
+        console.log(ultimo.previousSibling);
+
+        console.log(lista.children);
+        console.log(lista.firstElementChild); // tras os elementos sem o texto no caso (li)
+        console.log(lista.lastElementChild);
+
+        console.log(lista.parentNode.previousElementSibling); // pega o valor anterior
+        console.log(lista.parentNode.nextElementSibling); // pega o proximo valor
+
+        console.log(document.querySelectorAll('div ul li'));
+    </script>
+</body>
+
+</html>

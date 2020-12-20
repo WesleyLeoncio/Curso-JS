@@ -1,0 +1,3 @@
+npm init -y //para iniciar o arquivo packt.json
+
+// As dependencias foram criadas dentro do arquivo packt.json para instar basta executar npm i 

@@ -1,5 +1,6 @@
 const bodyParser = require('body-parser');
 const express = require('express');
+const axios = require('axios'); // teste com meu web-service
 const app = express();
 
 
@@ -38,4 +39,17 @@ app.post('/formulario', (req, res) => {
     })
 })
 
+app.get('/parOutImpar', (req, res) => {
+    //req.query URL no formato ?nome = 1
+    const par = parseInt(req.query.numero) % 2 === 0;
+    res.send({
+        resultado: par ? `numero: ${req.query.numero} par` : `numero: ${req.query.numero} impar` // parecido com if
+    })
+})
+
+/*app.get('/modelo', (req, res) => {
+    const url = 'https://csr-backend-spring.herokuapp.com/modelos/1';
+    axios.get(url).then((response) => res.send(response.data));
+
+})*/
 app.listen(8080, () => console.log('Executando Servidor....'));

@@ -1,0 +1,1 @@
+(()=>{var r={99:()=>{},334:()=>{}},t={};function e(o){if(t[o])return t[o].exports;var n=t[o]={exports:{}};return r[o](n,n.exports,e),n.exports}(()=>{"use strict";e(99),e(334);const r=new class{comprimentar(){return"Bom Dia!"}};console.log(r.comprimentar())})()})();

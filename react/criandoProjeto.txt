@@ -1,0 +1,4 @@
+//////////// React ////////////
+
+Primeiro passo executar no cmd (npm i -g create-react-app)
+Segundo passo criar o projeto com (create-react-app "Nome do Projeto")

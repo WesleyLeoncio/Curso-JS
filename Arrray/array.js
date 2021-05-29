@@ -38,5 +38,4 @@ console.log(aprovados);
    splice(1, 2, "Elemento3", "Elemento4"); ele irar deletar "Carlos", "Ana" e adicionar na posição delas
    os 2 novos elemntos para n excluir nenhum elemento basta colocar no segundo parametro o 0
    aprovados.splice(1, 0, "Elemento3", "Elemento4");
-
 */

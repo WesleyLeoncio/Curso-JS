@@ -26,7 +26,8 @@ aprovados = ["Bia", "Carlos", "Ana", "Elemento1", "Elemento2"];
 aprovados.splice(1, 2, "Elemento3", "Elemento4");
 console.log(aprovados);
 
-/* Quando coloca em um dado em uma posição na frente as outras posições anteriores ficam como udefined
+/* 
+   Quando coloca em um dado em uma posição na frente as outras posições anteriores ficam como udefined
    Exemplo: aprovados[0] = "Rafael"; aprovados[1] = "Tiago" aprovados[5] = "Wesley" as posições 2,3,4
    seram criadas e seus valores serão ndefined
 
@@ -37,4 +38,5 @@ console.log(aprovados);
    splice(1, 2, "Elemento3", "Elemento4"); ele irar deletar "Carlos", "Ana" e adicionar na posição delas
    os 2 novos elemntos para n excluir nenhum elemento basta colocar no segundo parametro o 0
    aprovados.splice(1, 0, "Elemento3", "Elemento4");
+
 */
